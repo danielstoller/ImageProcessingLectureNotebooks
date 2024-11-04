@@ -109,4 +109,13 @@ if __name__ == '__main__':
         video_src = sys.argv[1]
     except:
         video_src = 0
+    print('0: BOOSTING')
+    print('1: MIL')
+    print('2: KCF')
+    print('3: TLD')
+    print('4: MEDIANFLOW')
+    print('5: GOTURN')
+    print('6: MOSSE')
+    print('7: CSRT')
+    
     App(video_src).run()
