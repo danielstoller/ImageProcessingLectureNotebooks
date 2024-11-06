@@ -43,7 +43,7 @@ import os
 
 SZ = 20 # size of each digit is SZ x SZ
 CLASS_N = 10
-DIGITS_FN = '/Users/theodorehuppert/Desktop/ECE1390/LectureNotebooks/Lectures/Lecture18/digits.png'
+DIGITS_FN = "/Users/theodorehuppert/Desktop/ECE1390/LectureNotebooks/Data/digits.png"
 
 def split2d(img, cell_size, flatten=True):
     h, w = img.shape[:2]
